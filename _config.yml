@@ -1,0 +1,74 @@
+site: Zheqiao Chen
+url: zheqiaoc.com
+title: Zheqiao Chen's Personal Website
+description: Welcome to my personal website 欢迎来到我的个人网站
+twitter:
+  username: zheqiaoc
+  card: summary
+  creator: #yourusername
+author:
+  twitter: zheqiaoc
+  name: Zheqiao Chen
+  avatar:
+  email: chenzheqiao@hotmail.com
+  url: zheqiaoc.com
+permalink: pretty
+
+baseurl: ""
+
+highlighter: none
+
+exclude:
+  - .jekyll-cache
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap  
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+exclude: [vendor]
+
+valine:
+lang: en
+enable: true
+# app_id
+leancloud_appid: FKc4WcaVqCHCM1HLS98j9SS7-gzGzoHsz
+# app_key
+leancloud_appkey: Q0RZ5LyoucuO6tstMVQwdYkP
+# placeholder
+placeholder: "Leave your comments below"

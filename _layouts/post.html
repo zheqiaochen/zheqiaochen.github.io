@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    ...
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    <section class="post">
+        <h2>{{ page.title }}</h2>
+        {{ content }}
+        <span class="meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> &middot; 
+            {% for tag in page.tags %}
+            <a href="/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+        </span>
+        <!-- Valine 评论系统容器现在位于 post 容器内部 -->
+        <div id="vcomments"></div>
+    </section>
+    <script src="/Valine.min.js"></script>
+    <script>
+        var valine = new Valine();
+        valine.init({
+            el:'#vcomments',
+            appId: 'FKc4WcaVqCHCM1HLS98j9SS7-gzGzoHsz',
+            appKey: 'Q0RZ5LyoucuO6tstMVQwdYkP'
+        })
+    </script>
+</body>
+</html>

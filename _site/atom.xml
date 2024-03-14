@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Zheqiao Chen's Personal Website</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2024-03-15T01:11:14+08:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Zheqiao Chen</name>
+   <email>chenzheqiao@hotmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>整理了一些中国研究数据库</title>
+   <link href="http://localhost:4000/2023/10/16/%E4%B8%AD%E5%9B%BD%E7%A0%94%E7%A9%B6%E6%95%B0%E6%8D%AE%E5%BA%93%E6%95%B4%E7%90%86"/>
+   <updated>2023-10-16T00:00:00+08:00</updated>
+   <id>http://localhost:4000/2023/10/16/中国研究数据库整理</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/CUC_lib.jpg&quot; alt=&quot;Library of CUC&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;收集了一些中国研究的数据库，简介着实比较简单潦草，有一些信息也没有及时更新，如果未来有时间（可能）会慢慢修正并（可能会）添加一些的&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;一&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;中文名：中国综合社会调查&lt;/li&gt;
+  &lt;li&gt;英文名：CGSS&lt;/li&gt;
+  &lt;li&gt;官网： &lt;a href=&quot;http://cgss.ruc.edu.cn/&quot;&gt;http://cgss.ruc.edu.cn/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;简介：人大的调查项目，比较权威，目前最新是2018&lt;/li&gt;
+  &lt;li&gt;数据下载： &lt;a href=&quot;http://www.cnsda.org/index.php?r=projects/view&amp;amp;id=35694191&quot;&gt;http://www.cnsda.org/index.php?r=projects/view&amp;amp;id=35694191&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;二&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;中文名：中国社会状况综合调查&lt;/li&gt;
+  &lt;li&gt;英文名：CSS&lt;/li&gt;
+  &lt;li&gt;官网： &lt;a href=&quot;http://csqr.cass.cn/index.jsp&quot;&gt;http://csqr.cass.cn/index.jsp&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;简介：社科院社会学所的项目，目前最新是2019&lt;/li&gt;
+  &lt;li&gt;数据下载： &lt;a href=&quot;http://csqr.cass.cn/DataExplore/?ProjectID=2018061909463245927261066314&quot;&gt;http://csqr.cass.cn/DataExplore/?ProjectID=2018061909463245927261066314&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;三&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;中文名：中国家庭追踪调查&lt;/li&gt;
+  &lt;li&gt;英文名：CFPS&lt;/li&gt;
+  &lt;li&gt;官网： &lt;a href=&quot;http://www.isss.pku.edu.cn/cfps/index.htm&quot;&gt;http://www.isss.pku.edu.cn/cfps/index.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;简介：北大的项目，目前最新是2020&lt;/li&gt;
+  &lt;li&gt;数据下载： &lt;a href=&quot;https://opendata.pku.edu.cn/dataset.xhtml?persistentId=doi:10.18170/DVN/45LCSO&quot;&gt;https://opendata.pku.edu.cn/dataset.xhtml?persistentId=doi:10.18170/DVN/45LCSO&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;四&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;英文名：WVS&lt;/li&gt;
+  &lt;li&gt;官网： &lt;a href=&quot;https://www.worldvaluessurvey.org/wvs.jsp&quot;&gt;https://www.worldvaluessurvey.org/wvs.jsp&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;简介：Inglehart主持的世界价值观调查，目前最新是第七波（2017-2022）&lt;/li&gt;
+  &lt;li&gt;数据下载： &lt;a href=&quot;https://www.worldvaluessurvey.org/WVSContents.jsp&quot;&gt;https://www.worldvaluessurvey.org/WVSContents.jsp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;五&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;中文名：亚洲民主动态调查（亚洲晴雨表）&lt;/li&gt;
+  &lt;li&gt;英文名：Asian Barometer&lt;/li&gt;
+  &lt;li&gt;简介：台大胡佛中心的项目，目前最新是第五波（中国数据最新是第四波2014-2016）&lt;/li&gt;
+  &lt;li&gt;数据下载： &lt;a href=&quot;https://www.asianbarometer.org/data?page=d10&quot;&gt;https://www.asianbarometer.org/data?page=d10&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;六&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;英文名：East Asian Social Survey&lt;/li&gt;
+  &lt;li&gt;简介：中、韩、日、台，最新2018&lt;/li&gt;
+  &lt;li&gt;数据下载： &lt;a href=&quot;https://www.icpsr.umich.edu/web/ICPSR/studies/38489/summary&quot;&gt;https://www.icpsr.umich.edu/web/ICPSR/studies/38489/summary&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;七&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;中文名：中国反腐数据库&lt;/li&gt;
+  &lt;li&gt;英文名：China’s Anti-Corruption Campaign&lt;/li&gt;
+  &lt;li&gt;简介：小数据库，up-to-date&lt;/li&gt;
+  &lt;li&gt;数据下载： &lt;a href=&quot;https://www.chinafile.com/infographics/visualizing-chinas-anti-corruption-campaign&quot;&gt;https://www.chinafile.com/infographics/visualizing-chinas-anti-corruption-campaign&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;八&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;中文名：中国家庭收入调查&lt;/li&gt;
+  &lt;li&gt;英文名：CHIP&lt;/li&gt;
+  &lt;li&gt;简介：研究收入分配，最新为2018&lt;/li&gt;
+  &lt;li&gt;数据下载：&lt;a href=&quot;http://www.ciidbnu.org/chip&quot;&gt;http://www.ciidbnu.org/chip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;九&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;中文名：中国抗议数据集&lt;/li&gt;
+  &lt;li&gt;英文名：China Dissent&lt;/li&gt;
+  &lt;li&gt;简介：从2022.5.18开始的中国抗议数据&lt;/li&gt;
+  &lt;li&gt;数据下载：&lt;a href=&quot;https://chinadissent.net/zh&quot;&gt;https://chinadissent.net/zh&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;十&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;中文名：中国腐败调查数据&lt;/li&gt;
+  &lt;li&gt;英文名：Catching Tigers and Flies&lt;/li&gt;
+  &lt;li&gt;简介：China File的数据可视化项目，可以填表下载data&lt;/li&gt;
+  &lt;li&gt;数据下载：&lt;a href=&quot;https://www.chinafile.com/infographics/visualizing-chinas-anti-corruption-campaign&quot;&gt;https://www.chinafile.com/infographics/visualizing-chinas-anti-corruption-campaign&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;十一&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;中文名：中国历史传记数据&lt;/li&gt;
+  &lt;li&gt;英文名：China Biographical Database Project (CBDB)&lt;/li&gt;
+  &lt;li&gt;简介：Harvard的项目，记录了历史人物生平及其社会网络&lt;/li&gt;
+  &lt;li&gt;数据下载：&lt;a href=&quot;https://projects.iq.harvard.edu/cbdb/home&quot;&gt;https://projects.iq.harvard.edu/cbdb/home&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;十二&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;中文名：中国历史地理信息系统&lt;/li&gt;
+  &lt;li&gt;英文名：The China Historical Geographic Information System,  CHGIS&lt;/li&gt;
+  &lt;li&gt;简介：提供了一个基础 GIS 平台，用于空间分析或将中国的历史划分可视化为数字地图&lt;/li&gt;
+  &lt;li&gt;数据下载：&lt;a href=&quot;https://chgis.fairbank.fas.harvard.edu/&quot;&gt;https://chgis.fairbank.fas.harvard.edu/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;十三&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;中文名：中国私营企业调查&lt;/li&gt;
+  &lt;li&gt;英文名：China Private Enterprise Survey&lt;/li&gt;
+  &lt;li&gt;简介：社科院的数据&lt;/li&gt;
+  &lt;li&gt;数据下载：&lt;a href=&quot;https://cpes.zkey.cc/&quot;&gt;https://cpes.zkey.cc/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Databases for Chinese Research</title>
+   <link href="http://localhost:4000/2023/10/16/chinese-study-databases"/>
+   <updated>2023-10-16T00:00:00+08:00</updated>
+   <id>http://localhost:4000/2023/10/16/Chinese-study-databases</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/CUC_lib.jpg&quot; alt=&quot;Library of CUC&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I collected some public databases in Chinese research. Please refer to the information below. I’ll (probably) update and modify them in the future.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Chinese name: 中国综合社会调查&lt;/li&gt;
+  &lt;li&gt;English name: CGSS, Chinese General Social Survey&lt;/li&gt;
+  &lt;li&gt;Official website: &lt;a href=&quot;http://cgss.ruc.edu.cn/&quot;&gt;http://cgss.ruc.edu.cn/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Description: Survey project from Renmin University. The latest available data is from 2018.&lt;/li&gt;
+  &lt;li&gt;Data download: &lt;a href=&quot;http://www.cnsda.org/index.php?r=projects/view&amp;amp;id=35694191&quot;&gt;http://www.cnsda.org/index.php?r=projects/view&amp;amp;id=35694191&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Chinese name: 中国社会状况综合调查&lt;/li&gt;
+  &lt;li&gt;English name: CSS, Chinese Social Survey&lt;/li&gt;
+  &lt;li&gt;Official website: &lt;a href=&quot;http://csqr.cass.cn&quot;&gt;http://csqr.cass.cn&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Description: A project from the CASS Institute of Sociology. The latest data is 2019.&lt;/li&gt;
+  &lt;li&gt;Data download: &lt;a href=&quot;http://csqr.cass.cn/DataExplore/?ProjectID=2018061909463245927261066314&quot;&gt;http://csqr.cass.cn/DataExplore/?ProjectID=2018061909463245927261066314&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;3.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Chinese name: 中国家庭追踪调查&lt;/li&gt;
+  &lt;li&gt;English name: CFPS, China Family Panel Studies&lt;/li&gt;
+  &lt;li&gt;Official website: &lt;a href=&quot;http://www.isss.pku.edu.cn/cfps/index.htm&quot;&gt;http://www.isss.pku.edu.cn/cfps/index.htm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Description: A project from Peking University. The latest avaliable data is 2020.&lt;/li&gt;
+  &lt;li&gt;Data download: &lt;a href=&quot;https://opendata.pku.edu.cn/dataset.xhtml?persistentId=doi:10.18170/DVN/45LCSO&quot;&gt;https://opendata.pku.edu.cn/dataset.xhtml?persistentId=doi:10.18170/DVN/45LCSO&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;4.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;English name: WVS, World Value Survey&lt;/li&gt;
+  &lt;li&gt;Official website: &lt;a href=&quot;https://www.worldvaluessurvey.org/wvs.jsp&quot;&gt;https://www.worldvaluessurvey.org/wvs.jsp&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Description: The World Values Survey led by Inglehart. The latest wave is the seventh (2017-2022).&lt;/li&gt;
+  &lt;li&gt;Data download: &lt;a href=&quot;https://www.worldvaluessurvey.org/WVSContents.jsp&quot;&gt;https://www.worldvaluessurvey.org/WVSContents.jsp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;5.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Chinese name: 亚洲民主动态调查（亚洲晴雨表）&lt;/li&gt;
+  &lt;li&gt;English name: ABS, Asian Barometer Survey&lt;/li&gt;
+  &lt;li&gt;Description: A project from the Hoover Center at National Taiwan University. The latest wave is the fifth, and the latest data for China is from the fourth wave (2014-2016).&lt;/li&gt;
+  &lt;li&gt;Data download: &lt;a href=&quot;https://www.asianbarometer.org/data?page=d10&quot;&gt;https://www.asianbarometer.org/data?page=d10&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;6.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;English name: EASS, East Asian Social Survey&lt;/li&gt;
+  &lt;li&gt;Description: Covers China, Korea, Japan, and Taiwan. The latest data is 2018.&lt;/li&gt;
+  &lt;li&gt;Data download: &lt;a href=&quot;https://www.icpsr.umich.edu/web/ICPSR/studies/38489/summary&quot;&gt;https://www.icpsr.umich.edu/web/ICPSR/studies/38489/summary&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;7.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Chinese name: 中国反腐数据库&lt;/li&gt;
+  &lt;li&gt;English name: China’s Anti-Corruption Campaign&lt;/li&gt;
+  &lt;li&gt;Description: A small, up-to-date database.&lt;/li&gt;
+  &lt;li&gt;Data download: &lt;a href=&quot;https://www.chinafile.com/infographics/visualizing-chinas-anti-corruption-campaign&quot;&gt;https://www.chinafile.com/infographics/visualizing-chinas-anti-corruption-campaign&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;8.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Chinese name: 中国家庭收入调查&lt;/li&gt;
+  &lt;li&gt;English name: CHIP, Chinese Household Income Project&lt;/li&gt;
+  &lt;li&gt;Description: Focuses on income distribution. The latest data is 2018.&lt;/li&gt;
+  &lt;li&gt;Data download: &lt;a href=&quot;http://www.ciidbnu.org/chip&quot;&gt;http://www.ciidbnu.org/chip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;9.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Chinese name: 中国抗议数据集&lt;/li&gt;
+  &lt;li&gt;English name: China Dissent&lt;/li&gt;
+  &lt;li&gt;Description: Data on Chinese protests starting from May 18, 2022.&lt;/li&gt;
+  &lt;li&gt;Data download: &lt;a href=&quot;https://chinadissent.net/zh&quot;&gt;https://chinadissent.net/zh&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;10.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Chinese name: 中国腐败调查数据&lt;/li&gt;
+  &lt;li&gt;English name: Catching Tigers and Flies&lt;/li&gt;
+  &lt;li&gt;Description: A data visualization project by China File. Data can be downloaded by filling out a form.&lt;/li&gt;
+  &lt;li&gt;Data download: &lt;a href=&quot;https://www.chinafile.com/infographics/visualizing-chinas-anti-corruption-campaign&quot;&gt;https://www.chinafile.com/infographics/visualizing-chinas-anti-corruption-campaign&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;11.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Chinese name: 中国历史传记数据&lt;/li&gt;
+  &lt;li&gt;English name: CBDB, China Biographical Database Project&lt;/li&gt;
+  &lt;li&gt;Description: A project from Harvard that documents the lives and social networks of historical figures.&lt;/li&gt;
+  &lt;li&gt;Data download: &lt;a href=&quot;https://projects.iq.harvard.edu/cbdb/home&quot;&gt;https://projects.iq.harvard.edu/cbdb/home&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;12.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Chinese name: 中国历史地理信息系统&lt;/li&gt;
+  &lt;li&gt;English name: CHGIS, The China Historical Geographic Information System&lt;/li&gt;
+  &lt;li&gt;Description: Provides a foundational GIS platform for spatial analysis or to digitize and visualize historical divisions in China.&lt;/li&gt;
+  &lt;li&gt;Data download: &lt;a href=&quot;https://chgis.fairbank.fas.harvard.edu/&quot;&gt;https://chgis.fairbank.fas.harvard.edu/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;13.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Chinese name: 中国私营企业调查&lt;/li&gt;
+  &lt;li&gt;English name: CPES, China Private Enterprise Survey&lt;/li&gt;
+  &lt;li&gt;Description: Data from the Chinese Academy of Social Sciences.&lt;/li&gt;
+  &lt;li&gt;Data download: &lt;a href=&quot;https://cpes.zkey.cc/&quot;&gt;https://cpes.zkey.cc/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>等申请季结束后写一篇申请指南</title>
+   <link href="http://localhost:4000/2023/10/10/after-application"/>
+   <updated>2023-10-10T00:00:00+08:00</updated>
+   <id>http://localhost:4000/2023/10/10/after-application</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;等申请季结束后写一篇申请指南&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;在我的24fall申请季，gter等论坛和&lt;a href=&quot;https://hongtaoh.com/&quot;&gt;Hongtao Hao&lt;/a&gt;等前辈的blog给了我很大的帮助。如果我的申请结果尚可，也写一篇政治学和传播学的申请指南，为community做一点贡献。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+
+</feed>
