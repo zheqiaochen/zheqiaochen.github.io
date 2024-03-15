@@ -2,7 +2,7 @@
 layout: page
 title: About
 ---
-![](/assets/mypic.jpg){:height="350px" width="350px"}
+![陈柘桥的照片](/assets/mypic.jpg){:height="350px" width="350px"}
 
 ## Zheqiao Chen
 
