@@ -4,13 +4,71 @@
  <title>Zheqiao Chen's Personal Website</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-03-15T18:14:08+08:00</updated>
+ <updated>2024-03-16T06:53:15+08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Zheqiao Chen</name>
    <email>chenzheqiao@hotmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>美国Computational Social Science硕士项目</title>
+   <link href="http://localhost:4000/2024/03/15/%E7%BE%8E%E5%9B%BDcomputational-social-science%E7%A1%95%E5%A3%AB%E9%A1%B9%E7%9B%AE"/>
+   <updated>2024-03-15T21:53:00+08:00</updated>
+   <id>http://localhost:4000/2024/03/15/美国computational-social-science硕士项目</id>
+   <content type="html">&lt;h2 id=&quot;一前言&quot;&gt;一、前言&lt;/h2&gt;
+&lt;p&gt;由于美国纯计算社会科学硕士项目着实不多，因此稍微扩大了一下范围，囊括了一些教统计方法，但是没有那么硬核的项目。&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;二正文&quot;&gt;二、正文&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-u-chicago-masters-in-computational-social-science-macss&quot;&gt;1. U Chicago, Masters in Computational Social Science, MACSS&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://macss.uchicago.edu/&quot;&gt;MACSS&lt;/a&gt;
+两年制，在Social Science学院下，知名读博跳板项目，网上能找到不少申请攻略和就读体验，例如这里 &lt;a href=&quot;https://www.1point3acres.com/bbs/thread-963185-1-1.html&quot;&gt;MACSS就读体验&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-u-chicago-master-of-science-in-computational-analysis-and-public-policy-mscapp&quot;&gt;2. U Chicago, Master of Science in Computational Analysis and Public Policy, MSCAPP&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://capp.uchicago.edu/&quot;&gt;MSCAPP&lt;/a&gt;
+两年制，在Harris公共政策学院下，就读体验也很多，例如 &lt;a href=&quot;https://www.1point3acres.com/bbs/thread-559680-1-1.html&quot;&gt;UChicago MSCAPP感受&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-uc-berkeley-masters-of-computational-social-science-macss&quot;&gt;3. UC Berkeley, Masters of Computational Social Science, MACSS&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://macss.berkeley.edu/&quot;&gt;MACSS&lt;/a&gt;
+一年制，2024年秋新开的项目，可能略微实践导向，有些好奇这个项目的bar，等24fall申请季结束后大家可以关注一下&lt;/p&gt;
+
+&lt;h3 id=&quot;4-ucsd-computational-social-science-css&quot;&gt;4. UCSD, Computational Social Science, CSS&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://css.ucsd.edu/&quot;&gt;CSS&lt;/a&gt;
+一年制，课程范围很广，而且很前沿，可以享受UCSD的中国研究方面强大的师资&lt;/p&gt;
+
+&lt;h3 id=&quot;5-u-mass-amherst-data-analytics-and-computational-social-science-dacss&quot;&gt;5. U Mass-Amherst, Data Analytics and Computational Social Science, DACSS&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.umass.edu/social-sciences/academics/dacss/dacss-admissions&quot;&gt;DACSS&lt;/a&gt;
+一年到两年，允许part-time，一个刚开不久的项目（感觉staff不是很上心，我之前发的几封询问信息的邮件都没有得到回复）&lt;/p&gt;
+
+&lt;h3 id=&quot;6-george-mason-university-master-of-arts-in-interdisciplinary-studies-computational-social-science-concentration&quot;&gt;6. George Mason University, Master of Arts in Interdisciplinary Studies, Computational Social Science Concentration&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://mais.gmu.edu/programs/la-mais-isin-css&quot;&gt;Computational Social Science Concentration&lt;/a&gt;
+没有了解过，可以作为CSS方面的保底项目&lt;/p&gt;
+
+&lt;h3 id=&quot;7-nyu-applied-statistics-for-social-science-research-a3sr&quot;&gt;7. NYU, Applied Statistics for Social Science Research, A3SR&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://steinhardt.nyu.edu/degree/ms-applied-statistics-social-science-research&quot;&gt;A3SR&lt;/a&gt;
+两年制，允许part-time，课程更偏向统计学，可能比较适合想做Social Science的有理工科背景的学生。看项目官网比较直观的感受是强调social impact，可能实践色彩会比较浓&lt;/p&gt;
+
+&lt;h3 id=&quot;8-u-mich-master-of-science-in-survey-and-data-science&quot;&gt;8. U Mich, Master of Science in Survey and Data Science&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://surveydatascience.isr.umich.edu/survey-and-data-science-masters-degree-program&quot;&gt;Survey and Data Science&lt;/a&gt; 一年到两年，偏向统计学，size较小&lt;/p&gt;
+
+&lt;h3 id=&quot;9-upenn-ms-in-social-policy-program--data-analytics-for-social-policy-certificate-msspda&quot;&gt;9. UPenn, MS in Social Policy Program + Data Analytics for Social Policy Certificate, MSSP+DA&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://sp2.upenn.edu/program/master-of-science-in-social-policy-data-analytics-for-social-policy-certificate/&quot;&gt;MSSP+DA&lt;/a&gt; 没有了解过，每年申请人很多，寄托上也有很多信息&lt;/p&gt;
+
+&lt;h3 id=&quot;10-georgetown-master-of-science-in-data-science-for-public-policy&quot;&gt;10. Georgetown, Master of Science in Data Science for Public Policy&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://mccourt.georgetown.edu/master-of-science-in-data-science-for-public-policy/&quot;&gt;Data Science for Public Policy&lt;/a&gt; 没有了解过，申请人也很多&lt;/p&gt;
+
+&lt;h3 id=&quot;11-u-maryland-college-park-masters-in-survey-and-data-science&quot;&gt;11. U Maryland-College Park, Master’s in Survey and Data Science&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://jpsm.umd.edu/admissions/masters-survey-and-data-science&quot;&gt;Survey and Data Science&lt;/a&gt; 两年制，主要是就业导向。有三个方向：社会和心理学、调查统计和数据科学&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;三结语&quot;&gt;三、结语&lt;/h2&gt;
+
+&lt;p&gt;第一版写得比较粗糙，之后会再次更新。作为学科交叉的新方向，预计计算社会科学的申请者会越来越多，希望这篇文章对25fall及以后的申请者们有所帮助。&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>整理了一些中国研究数据库</title>
