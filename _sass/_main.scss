@@ -35,8 +35,16 @@ pre {
 	margin: .5rem 0;
 }
 
-.post h1, .post h2, .post h3, .post h4 {
+.post h1, .post h2, .post h3{
 	margin: 1rem 0;
+	line-height:1.3;
+
+}
+
+.post h4 {
+    margin-bottom: 0.5rem; /* 将 h4 元素的下边距设置为 0.5rem */
+    line-height:1.2;
+
 }
 
 .post h2:first-child, .project h2:first-child, .photo h2:first-child {

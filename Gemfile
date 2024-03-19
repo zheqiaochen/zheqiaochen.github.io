@@ -7,3 +7,6 @@ gem 'jekyll-sitemap'
 gem 'github-pages'
 gem "webrick", "~> 1.8"
 gem 'jekyll-compose', group: [:jekyll_plugins]
+gem 'jekyll-spaceship', group: [:jekyll_plugins]
+gem 'jekyll-toc', group: [:jekyll_plugins]
+
