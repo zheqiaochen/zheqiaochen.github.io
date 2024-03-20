@@ -34,8 +34,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap 
   - jekyll-spaceship 
-  - jekyll-toc
-
 
 collections:
   pages:
