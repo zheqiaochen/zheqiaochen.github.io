@@ -3,15 +3,16 @@ name: Build and Deploy to Github Pages
 on:
   push:
     branches:
-      - main  # Change this to your source code branch, e.g., `master` or `main`
+      - main  # 确保这里是你的源代码分支名，如 `master` 或 `main`
 
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
+      # 检出代码
       - uses: actions/checkout@v3
 
-      # Use GitHub Actions' cache to cache dependencies on servers
+      # 使用 GitHub Actions 的缓存功能来缓存依赖项
       - uses: actions/cache@v3
         with:
           path: vendor/bundle
@@ -19,24 +20,29 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
 
-      # Set up Ruby environment
+      # 设置 Ruby 环境
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2.0' # Specify Ruby version here
+          ruby-version: '3.2.0' # 确定这里是你想使用的 Ruby 版本
 
-      # Use GitHub Deploy Action to build and deploy to Github
+      # 在构建前执行自定义命令（如安装额外的依赖）
+      - name: Execute pre build commands
+        run: |
+          # 在这里添加你的命令，如安装额外的包或依赖
+          # 例如：sudo apt-get install -y your-package
+
+      # 使用 GitHub Deploy Action 来构建并部署到 GitHub Pages
       - uses: jeffreytse/jekyll-deploy-action@v0.5.1
         with:
-          provider: 'github'         # Default is github
-          token: ${{ secrets.GITHUB_TOKEN }} # Use your Personal Access Token (PAT)
-          ssh_private_key: ''        # Your SSH private key (if using SSH approach)
-          repository: ''             # Default is current repository
-          branch: 'gh-pages'         # Default is gh-pages for github provider
-          jekyll_src: './'           # Default is root directory
-          jekyll_cfg: '_config.yml'  # Default is _config.yml
-          jekyll_baseurl: ''         # Default is according to _config.yml
-          bundler_ver: ''            # Specify if you want a specific Bundler version, else it uses a compatible version
-          cname: ''                  # Use a CNAME (Custom domain) if needed
-          actor: ''                  # Default is the GITHUB_ACTOR
-          pre_build_commands: ''     # Use this to install additional dependencies
+          provider: 'github'         # 默认为 github
+          token: ${{ secrets.GITHUB_TOKEN }} # 使用你的个人访问令牌 (PAT)
+          ssh_private_key: ''        # 如果使用 SSH 方式，这里填写你的 SSH 私钥
+          repository: ''             # 默认为当前仓库
+          branch: 'gh-pages'         # 默认分支为 gh-pages
+          jekyll_src: './'           # Jekyll 的源代码目录，默认为根目录
+          jekyll_cfg: '_config.yml'  # Jekyll 的配置文件，默认为 _config.yml
+          jekyll_baseurl: ''         # 根据 _config.yml 中的配置，默认为空
+          bundler_ver: ''            # 如果需要指定 Bundler 版本，否则将使用兼容版本
+          cname: ''                  # 如果需要，填写自定义域名 (CNAME)
+          actor: ''                  # 默认为 GITHUB_ACTOR
