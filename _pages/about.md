@@ -12,4 +12,4 @@ For a detailed overview of my professional and academic background, please refer
 
 This is my little corner on the web where I document my writings. I'll be posting here to share my experiences, and I hope you find them helpful or interesting.
 
-- Email me: <a href="mailto:chenzheqiao@hotmail.com">chenzheqiao@hotmail.com</a>
+- Email me: <a href="mailto:zheqiao.chen@columbia.edu">zheqiao.chen@columbia.edu</a>
