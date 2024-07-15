@@ -6,10 +6,10 @@ title: About
 
 ## Zheqiao Chen
 
-Welcome! I'm an undergraduate at the [Communication University of China](https://www.cuc.edu.cn/), majoring in public administration with a focus on political communication. During my college years, I developed a strong interest in studying how personal preferences and behaviors are shaped by online information. I'm now applying for graduate school, and am excited to explore this topic further.
+Welcome! I’m a master’s student at Columbia University, majoring in Political Science. During my undergraduate years, I developed a strong interest in the interaction between authoritarian governments and their citizens via mass communication. My research interests include political communication, comparative politics, and political methodology.
 
 For a detailed overview of my professional and academic background, please refer to my [Curriculum Vitae](../assets/cv.pdf).
 
-This is my little corner on the web where I document my writings. I'll be posting here to share my experiences, and I hope you find them helpful or interesting.
+This is my little corner on the web where I document my writings. I’ll be posting here to share my experiences, and I hope you find them helpful or interesting.
 
-- Email me: <a href="mailto:zheqiao.chen@columbia.edu">zheqiao.chen@columbia.edu</a>
+- Email me at: <a href="mailto:zheqiao.chen@columbia.edu">zheqiao.chen@columbia.edu</a>
