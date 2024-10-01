@@ -6,9 +6,10 @@ title: About
 
 ## Zheqiao Chen
 
-Welcome! I’m a master's student at Columbia University, majoring in Political Science. I am interested in how governments and citizens interact through mass communication and the causal impacts on both ends. 
+Welcome! I'm a master's student at Columbia University, majoring in Political Science, with a focus on the politics of information in China.
 
-I received a B.A. from [Communication University of China](https://en.cuc.edu.cn/) (2024). For a detailed overview of my professional and academic background, please refer to my [Curriculum Vitae](../assets/cv.pdf).
+
+I earned my Bachelor's degree from [Communication University of China](https://en.cuc.edu.cn/) (2024). For a detailed overview of my professional and academic background, please refer to my [Curriculum Vitae](../assets/cv.pdf).
 
 This is my little corner where I document my writings. I'll be sharing my thoughts and experiences here, and I hope you find them helpful or interesting.
 
