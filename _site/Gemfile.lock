@@ -293,6 +293,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-spaceship
+  rouge
   webrick (~> 1.8)
 
 BUNDLED WITH

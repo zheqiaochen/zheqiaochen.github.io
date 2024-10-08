@@ -5,7 +5,7 @@ title: Databases for Chinese Research
 description: 13 databases included
 summary: 13 databases included
 comments: true
-tags: [data, social science]
+tags: [data, social science, English]
 ---
 
 ![Library of CUC](/assets/CUC_lib.jpg)

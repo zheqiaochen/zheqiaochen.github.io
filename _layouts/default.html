@@ -1,18 +1,24 @@
 ---
 layout: compress
 ---
-
 <!DOCTYPE html>
-<html lang="en" >
-  {% include head.html %}  
+<html lang="en">
+  <head>
+    <!-- Include head.html to add meta tags, title, etc. -->
+    {% include head.html %}
+    
+    <!-- Link to the CSS file for syntax highlighting -->
+    <link rel="stylesheet" href="/assets/rouge.css">
+  </head>
+  
   <body>
+    <!-- Main content of the page -->
     <main>
-	    
-	    {% include navigation.html %}
-	    
-        {{ content }}
-        	    
+      <!-- Include the navigation bar -->
+      {% include navigation.html %}
+      
+      <!-- The content of the specific post or page -->
+      {{ content }}
     </main>
-            
   </body>
 </html>
