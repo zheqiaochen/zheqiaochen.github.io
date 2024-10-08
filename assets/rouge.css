@@ -60,40 +60,35 @@
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
 .copy-code-button {
-  display: inline-block;
-  padding: 15px 20px; /* Increased padding to make the button larger */
-  margin-bottom: 0.5em;
-  background-color: white;
-  color: black;
-  font-size: 12px; /* Keeping the font size the same */
-  text-align: center;
-  border: solid 1px black;
-  border-radius: 7px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  float: left;
-  padding-block: 10px; /* Larger padding for block (top and bottom) */
-  padding-inline: 15px; /* Larger padding for inline (left and right) */
+    position: absolute; /* Position the button within the code block */
+    top: 10px; /* Adjust this value to place the button where you'd like */
+    right: 10px; /* Align it to the right inside the code block */
+    padding: 5px 10px; /* Slightly smaller padding for a more compact look */
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 10; /* Ensure it sits above the code block */
+    padding-block: 10px; /* Larger padding for block (top and bottom) */
+    padding-inline: 15px; /* Larger padding for inline (left and right) */
 }
 
 .copy-code-button:hover {
-  background-color: black; /* Darken the button on hover */
-  color: white;
+    background-color: black;
+    color: white;
 }
 
 .highlight {
-  position: relative;
-  border: 1px solid #000000;
-  background-color: transparent;
-  color: #000000;
-  font-size: 13px;
-  line-height: 1.4;
-  padding: 7px;
-/*  border-radius: 0px;*/
+    position: relative; /* Ensure the code block is the relative parent */
+    border: 1px solid #000000;
+    background-color: transparent;
+    color: #000000;
+    font-size: 13px;
+    line-height: 1.4;
+    padding: 15px; /* Adjust padding for code block */
+    overflow: auto; /* Handle overflow if the code is too long */
 }
-
-
-/* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
-.highlight .lineno {-webkit-user-select: none;-moz-user-select: none; -o-user-select: none;} 
-.lineno::-moz-selection {background-color: transparent;} /* Mozilla specific */
-.lineno::selection {background-color: transparent;} /* Other major browsers */

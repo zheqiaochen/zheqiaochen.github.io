@@ -1,13 +1,12 @@
 ---
 layout: post  
-title: Try Requests If You Don’t Like Selenium  
+title: "Try Requests If You Don’t Like Selenium"  
 comments: true  
 toc: true  
 usemathjax: true  
 markdown: kramdown  
 tags: [computational, English]  
 ---
-
 Recently, I struggled to scrape data from a website built with Vue.js. When I tried to scrape the web data using the traditional Selenium approach, I encountered two problems:
 
 1. Captchas appeared when I tried to load more pages.
@@ -29,7 +28,8 @@ They charge for this service, and I processed around 21,000 captchas, which cost
 The service I was using is [Chaojiying](https://www.chaojiying.com/).  It provides [a Python function](https://www.chaojiying.com/download/Chaojiying_Python.rar), which can be imported to your python program like this:
 
 {% include codeHeader.html %}
-```python
+
+``` python
 !pip install requests
 import requests
 import chaojiying # Download this part at Chaojiying website
@@ -40,7 +40,7 @@ def solveCaptcha():
     params1 = {
         'type': 'test'  
     }
-    
+
     response = requests.get(url1, headers=headers, cookies=cookies, params=params1)
     data = response.json()
     img = data['data']['img']
@@ -68,7 +68,8 @@ def solveCaptcha():
     
     # Send the solved captcha
     response = requests.get(url2, headers=headers, cookies=cookies, params=params2)
-``` 
+```
+
 There are many other companies that provide such services, but I haven't tried them yet. I list them below for your reference:
 
 - [Yun Ma](https://www.jfbym.com/)
@@ -113,7 +114,8 @@ Some benefits of doing so:
 
 If we want to combine the two, the logic would be simple:
 
-```
+{% include codeHeader.html %}
+```python
 if Captcha:
     get captcha from web server
     download captcha
@@ -123,5 +125,4 @@ if Captcha:
 else:
     get content with requests
 ```
-
 This article will be continued and refined. Feel free to email me or leave a comment if you have any questions.

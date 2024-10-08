@@ -138,13 +138,7 @@ jekyll-spaceship:
     src: https://github.githubassets.com/images/icons/emoji/
 
 markdown: kramdown
+
 kramdown:
   input: GFM
-  syntax_highlighter_opts:
-    default_lang: html
-    css_class: 'highlight'
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+  syntax_highlighter: rouge
