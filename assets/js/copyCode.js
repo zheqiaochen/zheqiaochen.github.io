@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
+  // Select all code blocks inside 'pre.highlight'
   const codeBlocks = document.querySelectorAll('pre.highlight');
 
+  // Iterate over each code block and create a copy button
   codeBlocks.forEach((codeBlock) => {
     // Check if the button already exists to prevent duplication
     if (!codeBlock.querySelector('.copy-code-button')) {
@@ -30,10 +32,5 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 2000);
       });
     }
-  });
-
-  // Remove any buttons that are inside '.code-header'
-  document.querySelectorAll('.code-header .copy-code-button').forEach(button => {
-    button.remove(); // Remove buttons inside .code-header
   });
 });

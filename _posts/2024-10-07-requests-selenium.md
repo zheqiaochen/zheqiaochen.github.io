@@ -25,9 +25,8 @@ Initially, I tried using Chrome extensions to automatically solve captchas while
 
 They charge for this service, and I processed around 21,000 captchas, which cost $3—a fair price. In the next part, I’ll talk about how to integrate it with the Requests package, or with Selenium if you prefer to stick to the traditional method.
 
-The service I was using is [Chaojiying](https://www.chaojiying.com/).  It provides [a Python function](https://www.chaojiying.com/download/Chaojiying_Python.rar), which can be imported to your python program like this:
+The service I used is [Chaojiying](https://www.chaojiying.com/).  It provides [a Python function](https://www.chaojiying.com/download/Chaojiying_Python.rar), which can be imported to your python program like this:
 
-{% include codeHeader.html %}
 ``` python
 !pip install requests
 import requests
@@ -90,7 +89,6 @@ This gives us information about the API request headers and response headers. Th
 
 Here’s a simple code snippet demonstrating how to use the Requests package in Python to fetch information from the server:
 
-{% include codeHeader.html %}
 ```python
 import requests
 
@@ -113,7 +111,6 @@ Some benefits of doing so:
 
 If we want to combine the two, the logic would be simple:
 
-{% include codeHeader.html %}
 ```python
 if Captcha:
     get captcha from web server
