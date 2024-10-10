@@ -1,10 +1,10 @@
 (function() {
   document.addEventListener('DOMContentLoaded', function() {
     // Select all code blocks inside 'pre.highlight'
-    const codeBlocks = document.querySelectorAll('pre.highlight');
+    const uniqueCodeBlocks = document.querySelectorAll('pre.highlight');
 
     // Iterate over each code block and create a copy button
-    codeBlocks.forEach((codeBlock) => {
+    uniqueCodeBlocks.forEach((codeBlock) => {
       // Check if the button already exists to prevent duplication
       if (!codeBlock.querySelector('.copy-code-button')) {
         // Create the copy button
