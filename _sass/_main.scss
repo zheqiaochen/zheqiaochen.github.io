@@ -217,6 +217,10 @@ li {
     margin: 5px 0;
 }
 
+pre.highlight {
+    position: relative; /* 确保按钮相对于代码块定位 */
+}
+
 .highlight {
     position: relative;
     border: 1px solid #000;
