@@ -1,25 +1,41 @@
-// This assumes that you're using Rouge; if not, update the selector
-const codeBlocks = document.querySelectorAll('.code-header + .highlighter-rouge');
-const copyCodeButtons = document.querySelectorAll('.copy-code-button');
+// Select all code blocks inside '.highlight' or just 'pre'
+const codeBlocks = document.querySelectorAll('pre.highlight');
 
-copyCodeButtons.forEach((copyCodeButton, index) => {
-  const code = codeBlocks[index].innerText;
+// Iterate over each code block and create a copy button
+codeBlocks.forEach((codeBlock) => {
+  // Check if the button already exists to prevent duplication
+  if (!codeBlock.querySelector('.copy-code-button')) {
+    // Create the copy button
+    const copyCodeButton = document.createElement('button');
+    copyCodeButton.classList.add('copy-code-button');
+    copyCodeButton.innerText = 'Copy';
 
-  copyCodeButton.addEventListener('click', () => {
-    // Copy the code to the user's clipboard
-    window.navigator.clipboard.writeText(code);
+    // Insert the button at the start of the code block
+    codeBlock.insertBefore(copyCodeButton, codeBlock.firstChild);
 
-    // Update the button text visually
-    const { innerText: originalText } = copyCodeButton;
-    copyCodeButton.innerText = 'Copied!';
+    // Get the code text from inside the code block
+    const code = codeBlock.innerText;
 
-    // (Optional) Toggle a class for styling the button
-    copyCodeButton.classList.add('copied');
+    // Add event listener to the button to copy the code
+    copyCodeButton.addEventListener('click', () => {
+      // Copy the code to the clipboard
+      window.navigator.clipboard.writeText(code);
 
-    // After 2 seconds, reset the button to its initial UI
-    setTimeout(() => {
-      copyCodeButton.innerText = originalText;
-      copyCodeButton.classList.remove('copied');
-    }, 2000);
-  });
+      // Update the button text temporarily
+      const originalText = copyCodeButton.innerText;
+      copyCodeButton.innerText = 'Copied!';
+
+      // Reset the button text after 2 seconds
+      setTimeout(() => {
+        copyCodeButton.innerText = originalText;
+      }, 2000);
+    });
+  }
+});
+
+// Remove any extra buttons that are not inside a code block
+document.querySelectorAll('.copy-code-button').forEach(button => {
+  if (!button.closest('pre.highlight')) { // Ensure buttons are only in 'pre.highlight' elements
+    button.remove(); // Remove buttons that are not inside the correct element
+  }
 });
