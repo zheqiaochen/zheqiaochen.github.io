@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Select all code blocks inside 'pre.highlight'
-  const codeBlocks = document.querySelectorAll('div.highlight');
+  const codeBlocks = document.querySelectorAll('pre.highlight');
 
   // Iterate over each code block and create a copy button
   codeBlocks.forEach((codeBlock) => {
