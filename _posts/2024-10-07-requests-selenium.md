@@ -28,7 +28,6 @@ They charge for this service, and I processed around 21,000 captchas, which cost
 The service I was using is [Chaojiying](https://www.chaojiying.com/).  It provides [a Python function](https://www.chaojiying.com/download/Chaojiying_Python.rar), which can be imported to your python program like this:
 
 {% include codeHeader.html %}
-
 ``` python
 !pip install requests
 import requests
