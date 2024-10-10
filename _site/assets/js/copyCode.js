@@ -1,7 +1,7 @@
 (function() {
   function addCopyButtons() {
     // Select all code blocks, adjusting the selector if necessary
-    const codeBlocks = document.querySelectorAll('pre');
+    const codeBlocks = document.querySelectorAll('pre.highlight');
     
     codeBlocks.forEach((codeBlock) => {
       if (!codeBlock.querySelector('.copy-code-button')) {
