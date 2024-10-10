@@ -1,45 +1,37 @@
-(function() {
-  function addCopyButtons() {
-    // Select all code blocks, adjusting the selector if necessary
-    const codeBlocks = document.querySelectorAll('pre.highlight');
-    
-    codeBlocks.forEach((codeBlock) => {
-      if (!codeBlock.querySelector('.copy-code-button')) {
-        const copyCodeButton = document.createElement('button');
-        copyCodeButton.classList.add('copy-code-button');
-        copyCodeButton.textContent = 'Copy';
-        
-        codeBlock.style.position = 'relative';
-        copyCodeButton.style.position = 'absolute';
-        copyCodeButton.style.top = '5px';
-        copyCodeButton.style.right = '5px';
-        
-        codeBlock.appendChild(copyCodeButton);
-        
-        copyCodeButton.addEventListener('click', () => {
-          const code = codeBlock.querySelector('code') ? codeBlock.querySelector('code').textContent : codeBlock.textContent;
-          
-          navigator.clipboard.writeText(code).then(() => {
-            copyCodeButton.textContent = 'Copied!';
-            setTimeout(() => {
-              copyCodeButton.textContent = 'Copy';
-            }, 2000);
-          }).catch(err => {
-            console.error('Failed to copy: ', err);
-          });
-        });
-      }
-    });
-  }
+document.addEventListener('DOMContentLoaded', function() {
+  // Select all code blocks inside 'pre.highlight'
+  const codeBlocks = document.querySelectorAll('pre.highlight');
 
-  // Try to run the function immediately
-  addCopyButtons();
+  // Iterate over each code block and create a copy button
+  codeBlocks.forEach((codeBlock) => {
+    // Check if the button already exists to prevent duplication
+    if (!codeBlock.querySelector('.copy-code-button')) {
+      // Create the copy button
+      const copyCodeButton = document.createElement('button');
+      copyCodeButton.classList.add('copy-code-button');
+      copyCodeButton.innerText = 'Copy';
 
-  // Also run it when the DOM is fully loaded
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', addCopyButtons);
-  }
+      // Insert the button at the start of the code block
+      codeBlock.insertBefore(copyCodeButton, codeBlock.firstChild);
 
-  // Run it again after a short delay to catch any dynamically loaded content
-  setTimeout(addCopyButtons, 2000);
-})();
+      // Get the code element inside the code block
+      const codeElement = codeBlock.querySelector('code');
+      const code = codeElement ? codeElement.innerText : '';
+
+      // Add event listener to the button to copy the code
+      copyCodeButton.addEventListener('click', () => {
+        // Copy the code to the clipboard
+        window.navigator.clipboard.writeText(code);
+
+        // Update the button text temporarily
+        const originalText = copyCodeButton.innerText;
+        copyCodeButton.innerText = 'Copied!';
+
+        // Reset the button text after 2 seconds
+        setTimeout(() => {
+          copyCodeButton.innerText = originalText;
+        }, 2000);
+      });
+    }
+  });
+});
