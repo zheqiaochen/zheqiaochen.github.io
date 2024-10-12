@@ -14,3 +14,4 @@ I earned my Bachelor's degree from the [Communication University of China](https
 This is my little corner where I document my writings. I'll be sharing my thoughts and experiences here, and I hope you find them helpful or interesting.
 
 - Email me at: <a href="mailto:zheqiao.chen@columbia.edu">zheqiao.chen@columbia.edu</a>
+- How to pronounce [Zheqiao](https://www.howtopronounce.com/zheqiao/36108562)
