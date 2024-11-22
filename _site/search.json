@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "A Toolkit for OpenAI Batch",
+      "description" : "",
+      "url"      : "/2024/11/21/openai-batch-tools",
+      "category" : "",
+      "tags"     : "app, English",
+      "date"     : "2024-11-21 00:00:00 -0500"
+
+    } ,
+  
+    {
+
       "title"    : "Try Requests If You Don’t Like Selenium",
       "description" : "",
       "url"      : "/2024/10/07/requests-selenium",

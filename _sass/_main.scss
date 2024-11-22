@@ -8,36 +8,105 @@
     padding: 0;
 }
 
+// 定义配色变量
+:root {
+    --primary-text: #1a1a1a;      // 主要文字颜色，接近黑色
+    --secondary-text: #262626;    // 次要文字颜色，深色
+    --accent-color: #1a1a1a;      // 强调色，深色
+    --bg-color: #ffffff;          // 背景色，纯白
+    --border-color: #d1d1d1;      // 边框颜色，浅色
+    --hover-color: #333333;       // 悬停颜色，中深色
+    --code-bg: #fafafa;           // 代码背景色，极浅灰
+    --blockquote-bg: #fafafa;     // 引用背景色，极浅灰
+}
+
+// 字体声明
+@font-face {
+    font-family: 'Source Han Serif CN';
+    src: local('Source Han Serif CN'), 
+         local('Source Han Serif SC'),
+         local('Source Han Serif TC'), 
+         local('Source Han Serif TW'),
+         local('Source Han Serif'), 
+         local('Noto Serif CJK SC'), 
+         local('Songti SC'), 
+         local('SimSong'),
+         url('https://cdn.jsdelivr.net/gh/yihui/cron/fonts/SourceHanSerifCN-Regular-yihui.woff2') format('woff2');
+    font-display: swap;  // 优化字体加载
+}
+
+@font-face {
+    font-family: 'Kai SC';
+    src: local('Kaiti'), 
+         local('Kaiti SC'), 
+         local('STKaiti'), 
+         local('楷体'), 
+         local('SimKai'), 
+         local('AR PL KaitiM GB'), 
+         local('DFKai-SB'), 
+         local('FandolKai'),
+         url('https://cdn.jsdelivr.net/gh/yihui/cron/fonts/gkai00mp-yihui.woff2') format('woff2');
+    font-display: swap;
+}
+
+// 更新全局字体设置
 body {
-    font-family: "Songti SC", "SimSun", "宋体", serif;
+    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Latin Modern Roman', 
+                 'Source Han Serif CN', 'Noto Serif CJK SC', serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     line-height: 1.8;
-    font-size: 1.2rem;
-    color: rgb(22, 23, 26);
+    font-size: 1rem;
+    color: var(--primary-text);
+    background-color: var(--bg-color);
+    max-width: 100ch;
+    margin: 0 auto;
 }
 
 nav ul {
-    border-right: 1px solid #edf2f7;
+    border-right: 1px solid var(--border-color);
 }
 
 a {
-    color: #000;
-    text-decoration-skip-ink: auto;
-    text-decoration: underline;
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    
+    &:hover {
+        color: var(--hover-color);
+    }
 }
 
+// 代码字体设置
 pre,
 code {
-    background: #ffffff;
-    position: relative;
+    font-family: Consolas, 'SF Mono', Monaco, 'Lucida Console', 'Courier New', 
+                 'Kai SC', monospace;
+    font-size: 0.95em;
+    background: transparent;
 }
 
 pre {
     margin: 0;
-    padding: 0;
+    padding: 0.5rem 0;
     overflow-x: auto;
-    position: relative; /* 确保按钮相对于 pre 进行定位 */
+    position: relative;
+    padding-right: 60px;
+    
+    code {
+        padding: 0;
+        background: transparent;
+        font-size: 0.9em;
+        line-height: 1.6;
+    }
+}
+
+.post {
+    margin-bottom: 3rem;
+}
+
+.post-content {
+    margin-bottom: 4rem;
 }
 
 .post p,
@@ -47,7 +116,7 @@ pre {
 .post h4,
 .meta,
 li {
-    margin: .5rem 0;
+    margin: 1.2rem 0;
 }
 
 .post h1,
@@ -83,7 +152,7 @@ section {
 header li {
     margin-bottom: .2rem;
     text-align: right;
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 header a {
@@ -94,15 +163,22 @@ header a.active {
     font-weight: bold;
 }
 
+// 引用块使用楷体
 blockquote {
-    font-style: italic;
-    border-left: 5px solid #ececec;
-    padding-left: 1rem;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, 'Kai SC', serif;
+    margin: 2rem 0;
+    padding: 1rem 1.5rem;
+    border-left: 4px solid var(--accent-color);
+    background-color: var(--blockquote-bg);
+    border-radius: 0 6px 6px 0;
+    font-style: normal;  // 取消斜体
+    color: var(--secondary-text);
 }
 
 strong,
 b {
     font-weight: bold;
+    font-size: 0.9em;
 }
 
 .photos ul,
@@ -147,7 +223,7 @@ img {
 }
 
 hr {
-    background: #000;
+    background: #000000;
     height: 1px;
     border: 0;
 }
@@ -168,6 +244,7 @@ main {
     max-width: 60rem;
     margin: 2rem auto;
     padding: 1rem;
+    padding-left: 1.2rem;
 }
 
 @media screen and (max-width: 45rem) {
@@ -181,7 +258,7 @@ main {
     }
 
     header ul {
-        border-bottom: 1px solid #edf2f7;
+        border-bottom: 1px solid var(--border-color);
         padding-bottom: 2rem;
     }
 
@@ -197,13 +274,15 @@ main {
 section {
     flex-basis: 0;
     flex-grow: 999;
-    min-width: 70%;
+    min-width: 77%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 figcaption {
-    font-size: smaller;
+    font-size: 0.85rem;
 }
 
 @media print {
@@ -214,47 +293,68 @@ figcaption {
 }
 
 li {
-    margin: 5px 0;
-}
-
-pre.highlight {
-    position: relative; /* 确保按钮相对于代码块定位 */
+    margin: 4px 0;
+    font-size: 0.95rem;
 }
 
 .highlight {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: var(--code-bg);
+    margin: 1.5rem 0;
     position: relative;
-    border: 1px solid #000;
-    background-color: transparent;
-    color: #000;
-    font-size: 13px;
-    line-height: 1.4;
-    padding: 15px;
-    overflow: auto;
+    padding: 1.2rem;
+    
+    &:hover {
+        box-shadow: 0 2px 8px rgba(26, 26, 26, 0.1);
+        transition: box-shadow 0.2s ease;
+    }
+
+    pre {
+        margin: 0;
+        padding: 0;
+        background: transparent;
+        border: none;
+        overflow-x: auto;
+        
+        code {
+            padding: 0;
+            background: transparent;
+            border: none;
+        }
+    }
 }
 
 .copy-code-button {
     position: absolute;
-    top: 6px; /* 调整按钮的垂直位置 */
-    right: 5px; /* 调整按钮的水平位置 */
-    background-color: white;
-    color: black;
+    top: 0.8rem;
+    right: 0.8rem;
+    background-color: var(--bg-color);
+    color: var(--accent-color);
     padding: 5px 10px;
-    font-size: 12px;
-    border: 1px solid black;
-    border-radius: 7px;
+    font-size: 0.8rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
     cursor: pointer;
-    z-index: 10; /* 确保按钮在代码块上方显示 */
-}
-
-.copy-code-button:hover {
-    background-color: black;
-    color: white;
+    z-index: 10;
+    transition: all 0.2s ease;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    
+    &:hover {
+        background-color: var(--accent-color);
+        color: var(--bg-color);
+        border-color: var(--accent-color);
+    }
+    
+    &:active {
+        transform: scale(0.98);
+    }
 }
 
 .highlight .c,
 .highlight .cm,
 .highlight .c1 {
-    color: #999988;
+    color: #595959;
     font-style: italic;
 }
 
@@ -278,7 +378,7 @@ pre.highlight {
 .highlight .mh,
 .highlight .mi,
 .highlight .mo {
-    color: #009999;
+    color: #d69e2e;
 }
 
 .highlight .s,
@@ -293,7 +393,7 @@ pre.highlight {
 .highlight .sr,
 .highlight .s1,
 .highlight .ss {
-    color: #d14;
+    color: #262626;
 }
 
 .highlight .nc,
@@ -319,5 +419,48 @@ pre.highlight {
 .highlight .vg,
 .highlight .vc,
 .highlight .vi {
-    color: #008080;
+    color: #1a1a1a;
+}
+
+.post h1, h1 { 
+    font-size: 2.2rem;
+    margin-bottom: 2rem; 
+    color: var(--primary-text);
+}
+
+.post h2, h2 { 
+    font-size: 1.5rem;
+    margin-top: 1.8rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--primary-text);
+}
+
+.post h3, h3 { font-size: 1.3rem; }
+.post h4, h4 { font-size: 1.15rem; }
+h5 { font-size: 1rem; }
+
+#vcomments {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-color);
+    margin-bottom: 0;
+}
+
+.post p a,
+.post li a {
+    color: var(--accent-color);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1px;
+    
+    &:hover {
+        color: var(--hover-color);
+    }
+}
+
+// 中文斜体使用楷体而不是斜体
+em {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, 'Kai SC', serif;
+    font-style: normal;
 }

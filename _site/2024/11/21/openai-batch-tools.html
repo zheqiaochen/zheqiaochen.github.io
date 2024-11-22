@@ -5,19 +5,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Jekyll v3.9.5">
-<meta property="og:title" content="404: Page not found">
+<meta property="og:title" content="A Toolkit for OpenAI Batch">
 <meta name="author" content="Zheqiao Chen">
 <meta property="og:locale" content="en">
-<meta name="description" content="Welcome to my personal website 欢迎来到我的个人网站">
-<meta property="og:description" content="Welcome to my personal website 欢迎来到我的个人网站">
-<link rel="canonical" href="http://localhost:4000/404.html">
-<meta property="og:url" content="http://localhost:4000/404.html">
+<meta name="description" content="The app can be found HERE. Please follow the readme file to install.">
+<meta property="og:description" content="The app can be found HERE. Please follow the readme file to install.">
+<link rel="canonical" href="http://localhost:4000/2024/11/21/openai-batch-tools">
+<meta property="og:url" content="http://localhost:4000/2024/11/21/openai-batch-tools">
 <meta property="og:site_name" content="Zheqiao Chen’s Personal Website">
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2024-11-21T00:00:00-05:00">
 <meta name="twitter:card" content="summary">
-<meta property="twitter:title" content="404: Page not found">
+<meta property="twitter:title" content="A Toolkit for OpenAI Batch">
 <meta name="twitter:site" content="@zheqiaoc">
-<meta name="twitter:creator" content="@zheqiaoc"> <script type="application/ld+json"> {"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Zheqiao Chen","url":"zheqiaoc.com"},"description":"Welcome to my personal website 欢迎来到我的个人网站","headline":"404: Page not found","url":"http://localhost:4000/404.html"}</script><title> 404: Page not found - Zheqiao Chen's Personal Website</title>
+<meta name="twitter:creator" content="@zheqiaoc"> <script type="application/ld+json"> {"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Zheqiao Chen","url":"zheqiaoc.com"},"dateModified":"2024-11-21T00:00:00-05:00","datePublished":"2024-11-21T00:00:00-05:00","description":"The app can be found HERE. Please follow the readme file to install.","headline":"A Toolkit for OpenAI Batch","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2024/11/21/openai-batch-tools"},"url":"http://localhost:4000/2024/11/21/openai-batch-tools"}</script><title> A Toolkit for OpenAI Batch - Zheqiao Chen's Personal Website</title>
 <link href="/favicon.png" rel="shortcut icon" media="(prefers-color-scheme: light)">
 <link href="/favicon_dark.png" rel="shortcut icon" media="(prefers-color-scheme: dark)">
 <link rel="alternate" type="application/atom+xml" title="Zheqiao Chen's Personal Website" href="/atom.xml">
@@ -30,5 +31,28 @@
 <li><a href="/about">About</a></li>
 <li><a href="/search">Search</a></li>
 <li><a href="/rss.xml">RSS</a></li>
-</ul></nav></header><section class="post"><h2>404: Page not found</h2>Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.</section></main></body>
+</ul></nav></header> ...<title>A Toolkit for OpenAI Batch</title>
+<section class="post"><h2>A Toolkit for OpenAI Batch</h2>
+<ul>
+<li><a href="#what-is-openai-batch">What is OpenAI Batch?</a></li>
+<li><a href="#what-is-openai-batch-tools">What is OpenAI Batch Tools？</a></li>
+</ul>
+<p>The app can be found <a href="https://github.com/zheqiaochen/openaibatch">HERE</a>. Please follow the readme file to install.</p>
+<h2 id="what-is-openai-batch">What is OpenAI Batch?</h2>
+<p>When using the OpenAI API for NLP tasks in social science research, my usual practice involves using the openai package alongside pandas to process a CSV file, read text, and write labels from OpenAI API responses. However, if the CSV file is too large, the processing speed decreases dramatically after handling a certain number of tasks, as outlined in the <a href="https://platform.openai.com/docs/guides/rate-limits">rate limits documentation</a>. To efficiently handle large workloads, the best approach is to use <a href="https://platform.openai.com/docs/guides/batch">OpenAI Batch</a>, which allows users to upload a JSONL file in <a href="https://platform.openai.com/docs/guides/batch#1-preparing-your-batch-file">a specified format</a>.</p>
+<h2 id="what-is-openai-batch-tools">What is OpenAI Batch Tools？</h2>
+<p>That said, the batch service also has a daily usage limit, though the cap is significantly higher than the standard rate limits. To work around this, I typically register multiple OpenAI accounts, divide the CSV file into smaller parts, and process them separately. Once all parts are processed, I merge the results into a single CSV file.</p>
+<p>This process requires some coding, and since I’m a lazy guy, I made an app to facilitate the workflow. The menu looks like this:</p>
+<p><img src="https://i.ibb.co/Y2gFd1n/Screenshot-2024-11-21-at-11-46-32-PM.png" alt="menu"></p>
+<p>The menu contains three features to streamline the process:</p>
+<ol>
+<li>
+<strong>CSV to JSONL Converter</strong>: Converts a CSV file to JSONL format, which is required for OpenAI Batch processing.</li>
+<li>
+<strong>JSONL File Splitter</strong>: Splits the JSONL file into several smaller files of equal size, making it easier to handle large datasets within the batch service limits.</li>
+<li>
+<strong>JSONL Response Extractor</strong>: After downloading the batch outcomes from the OpenAI server, this feature extracts the responses and converts them back to a CSV file.</li>
+</ol>
+<p>This app simplifies the entire workflow, from preparing data for OpenAI Batch to processing the results.</p>
+<span class="meta"> <time datetime="2024-11-21T00:00:00-05:00">November 21, 2024</time> · <a href="/tag/app">app</a>, <a href="/tag/English">English</a> </span><div id="vcomments"></div></section><script src="/assets/js/copyCode.js"></script> <script src="/Valine.min.js"></script> <script> new Valine({ el:'#vcomments', appId: 'deLvV5QEsweui1qehWIOKa6h-gzGzoHsz', appKey: '5rlOhiv7dVJoeVuohXfQjzpP', avatar: "mp" }) </script></main></body>
 </html>
