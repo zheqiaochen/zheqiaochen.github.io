@@ -36,9 +36,11 @@ First, we need a CSV file as the input. Specify the column that contains the tex
 
 ```python
 # Example of the parameters
+
 # Model: I often use gpt-4o-mini, which is the cheapest model and has a good balance between speed and quality.
 # Max Tokens: this is the max number of tokens shared between the prompt and the response. One token is approximately 4 characters in English.
 # Temperature: 1 is the default value, higher temperature leads to more creative responses, and lower temperature leads to more conservative responses.
+
 ```
 
 Once the JSONL file is generated, you can upload the file to the [OpenAI Batch service](https://platform.openai.com/batches) and start processing. Or if the file is still too large, you may want to split the JSONL file into several smaller files to handle the batch service limits.
