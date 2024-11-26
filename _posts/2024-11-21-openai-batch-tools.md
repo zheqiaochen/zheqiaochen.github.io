@@ -27,7 +27,7 @@ It contains three tools to streamline the process:
 
 1. **CSV to JSONL Converter**: Converts a CSV file to JSONL format, which is required for OpenAI Batch processing.
 ![csv_to_jsonl](https://i.ibb.co/cbbp2WW/Screenshot-2024-11-26-at-11-08-09-AM.png)
-2. **JSONL File Splitter**: Splits the JSONL file into several smaller files of equal size, making it easier to handle large datasets within the batch service limits.
+2. **JSONL File Splitter**: Splits the JSONL file into several smaller files of equal size. My suggestion is that if you upload one JSONL file and it exceeds the batch service limits, you can split it into 2 or 3 smaller files and register a new OpenAI account to process them separately, and combine the results later.
 ![jsonl_splitter](https://i.ibb.co/KmkRr9v/Screenshot-2024-11-26-at-10-54-52-AM.png)
 3. **JSONL Response Extractor**: After downloading the batch outcomes from the OpenAI server, this feature extracts the responses and converts them back to a CSV file.
 ![jsonl_extractor](https://i.ibb.co/MscjT94/Screenshot-2024-11-26-at-10-54-55-AM.png)
