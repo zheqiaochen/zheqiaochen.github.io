@@ -8,7 +8,7 @@ usemathjax: true
 tags: [app, English]
 ---
 
-**NEWS: I deployed the app online to make it easier to use. Visit [openaibatch.vercel.app](openaibatch.vercel.app) to give it a try!**
+**NEWS: I deployed the app online to make it easier to use. Visit [openaibatch.vercel.app](https://openaibatch.vercel.app) to give it a try!**
 
 ## What is OpenAI Batch?
 
