@@ -9,6 +9,7 @@ tags: [app, English]
 ---
 
 **NEWS: I deployed the app online to make it easier to use. Visit [openaibatch.vercel.app](https://openaibatch.vercel.app) to give it a try!**
+**The online service may not be able to process large CSV files. If you encounter any error, please pull the app and run it on your local device.**
 
 ## What is OpenAI Batch?
 
