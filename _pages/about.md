@@ -2,7 +2,7 @@
 layout: page
 title: About
 ---
-![陈柘桥的照片](/assets/mypic.jpg "Photo Credit: Yijun Wang"){:height="350px" width="350px"}
+![陈柘桥的照片](/assets/mypic.png "Photo Credit: Yijun Wang"){:height="250px" width="250px"}
 
 ## Zheqiao Chen
 
