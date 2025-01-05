@@ -530,3 +530,13 @@ em {
     }
 }
 
+.red-dot {
+    position: absolute; /* 绝对定位 */
+    top: 0; /* 距离父元素顶部 */
+    left: -10px; /* 根据需求调整与标题左侧的距离 */
+    width: 8px; /* 小红点宽度 */
+    height: 8px; /* 小红点高度 */
+    background-color: red; /* 红色背景 */
+    border-radius: 50%; /* 圆形 */
+  }
+  
