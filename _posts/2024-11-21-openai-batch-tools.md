@@ -40,21 +40,21 @@ The above process requires some coding, and dealing with JSONL format and batch 
 
 The app menu looks like this:
 
-![menu](https://i.ibb.co/Y2gFd1n/Screenshot-2024-11-21-at-11-46-32-PM.png)
+![menu](https://i.ibb.co/Y2gFd1n/Screenshot-2024-11-21-at-11-46-32-PM.png){:class="zoomable"}
 
 It contains three tools to streamline the workflow:
 
 1. **CSV to JSONL Converter**  
    Converts a CSV file to JSONL format, which is required for OpenAI Batch processing.  
-   ![csv_to_jsonl](https://i.ibb.co/cbbp2WW/Screenshot-2024-11-26-at-11-08-09-AM.png)
+   ![csv_to_jsonl](https://i.ibb.co/cbbp2WW/Screenshot-2024-11-26-at-11-08-09-AM.png){:class="zoomable"}
 
 2. **JSONL File Splitter**  
    Splits a JSONL file into smaller files of equal size. If the JSONL file exceeds batch service limits, you can split it into smaller files, register new OpenAI accounts to process them separately, and combine the results later.  
-   ![jsonl_splitter](https://i.ibb.co/KmkRr9v/Screenshot-2024-11-26-at-10-54-52-AM.png)
+   ![jsonl_splitter](https://i.ibb.co/KmkRr9v/Screenshot-2024-11-26-at-10-54-52-AM.png){:class="zoomable"}
 
 3. **JSONL Response Extractor**  
    After downloading batch outcomes from the OpenAI server, this feature extracts the responses and converts them back to a CSV file.  
-   ![jsonl_extractor](https://i.ibb.co/MscjT94/Screenshot-2024-11-26-at-10-54-55-AM.png)
+   ![jsonl_extractor](https://i.ibb.co/MscjT94/Screenshot-2024-11-26-at-10-54-55-AM.png){:class="zoomable"}
 
 ### How to Use
 

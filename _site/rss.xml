@@ -4,7 +4,7 @@
  <title>Zheqiao Chen's Personal Website</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2025-01-05T01:20:41-05:00</updated>
+ <updated>2025-01-05T01:52:14-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Zheqiao Chen</name>
@@ -17,7 +17,7 @@
    <link href="http://localhost:4000/2025/01/04/csed"/>
    <updated>2025-01-04T00:00:00-05:00</updated>
    <id>http://localhost:4000/2025/01/04/csed</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/csed.png&quot; alt=&quot;csed&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/csed.png&quot; alt=&quot;csed&quot; class=&quot;zoomable&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;emphasis-box&quot;&gt;
 
@@ -92,7 +92,7 @@
 
 &lt;p&gt;The app menu looks like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/Y2gFd1n/Screenshot-2024-11-21-at-11-46-32-PM.png&quot; alt=&quot;menu&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.ibb.co/Y2gFd1n/Screenshot-2024-11-21-at-11-46-32-PM.png&quot; alt=&quot;menu&quot; class=&quot;zoomable&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It contains three tools to streamline the workflow:&lt;/p&gt;
 
@@ -100,17 +100,17 @@
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;CSV to JSONL Converter&lt;/strong&gt;&lt;br /&gt;
 Converts a CSV file to JSONL format, which is required for OpenAI Batch processing.&lt;br /&gt;
-&lt;img src=&quot;https://i.ibb.co/cbbp2WW/Screenshot-2024-11-26-at-11-08-09-AM.png&quot; alt=&quot;csv_to_jsonl&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://i.ibb.co/cbbp2WW/Screenshot-2024-11-26-at-11-08-09-AM.png&quot; alt=&quot;csv_to_jsonl&quot; class=&quot;zoomable&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;JSONL File Splitter&lt;/strong&gt;&lt;br /&gt;
 Splits a JSONL file into smaller files of equal size. If the JSONL file exceeds batch service limits, you can split it into smaller files, register new OpenAI accounts to process them separately, and combine the results later.&lt;br /&gt;
-&lt;img src=&quot;https://i.ibb.co/KmkRr9v/Screenshot-2024-11-26-at-10-54-52-AM.png&quot; alt=&quot;jsonl_splitter&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://i.ibb.co/KmkRr9v/Screenshot-2024-11-26-at-10-54-52-AM.png&quot; alt=&quot;jsonl_splitter&quot; class=&quot;zoomable&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;JSONL Response Extractor&lt;/strong&gt;&lt;br /&gt;
 After downloading batch outcomes from the OpenAI server, this feature extracts the responses and converts them back to a CSV file.&lt;br /&gt;
-&lt;img src=&quot;https://i.ibb.co/MscjT94/Screenshot-2024-11-26-at-10-54-55-AM.png&quot; alt=&quot;jsonl_extractor&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://i.ibb.co/MscjT94/Screenshot-2024-11-26-at-10-54-55-AM.png&quot; alt=&quot;jsonl_extractor&quot; class=&quot;zoomable&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -220,7 +220,7 @@ After downloading batch outcomes from the OpenAI server, this feature extracts t
 
 &lt;p&gt;For example, I use &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;. When I click on the link of interest, the Network panel changes.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/network_panel.png&quot; alt=&quot;Network panel changed&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/network_panel.png&quot; alt=&quot;Network panel changed&quot; class=&quot;zoomable&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This gives us information about the API request headers and response headers. Therefore, by reconstructing this information ourselves, we can simulate API requests and retrieve responses in JSON format.&lt;/p&gt;
 
@@ -335,7 +335,7 @@ After downloading batch outcomes from the OpenAI server, this feature extracts t
 
 &lt;p&gt;&lt;strong&gt;不妨列一张表格：&lt;/strong&gt;&lt;br /&gt;
 用Google Sheets或者Excel管理申请的项目，可以列一列申请学校，截止日期（按照截止日期正序排列），申请费，语言要求，GRE要求，WES要求，SoP要求，WS要求，LoR要求，申请页面链接，学费，学习时长等等。这样对自己的申请可以有更加直观的掌握。
-&lt;img src=&quot;/assets/sheets.png&quot; alt=&quot;我的选校表&quot; title=&quot;我的选校&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/sheets.png&quot; alt=&quot;我的选校表&quot; title=&quot;我的选校&quot; class=&quot;zoomable&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;大胆申请：&lt;/strong&gt;&lt;br /&gt;
 不要在意他人给你的定位，也不要在意别人发的求定位帖子，如果有心爱的项目就大胆申请，申请了就有录取的可能，但是不申请录取的可能一定是0。对我来说最重要的参考标准是寄托、一亩三分地、thegradcafe上过往录取者的bg，但是也只是参考而已，每个个体都不一样，不要让他人的失败/成功影响你的申请。&lt;/p&gt;
@@ -511,7 +511,7 @@ i人推荐使用&lt;a href=&quot;https://www.interfolio.com/&quot;&gt;interfolio
    <link href="http://localhost:4000/2023/10/16/%E4%B8%AD%E5%9B%BD%E7%A0%94%E7%A9%B6%E6%95%B0%E6%8D%AE%E5%BA%93%E6%95%B4%E7%90%86"/>
    <updated>2023-10-16T00:00:00-04:00</updated>
    <id>http://localhost:4000/2023/10/16/中国研究数据库整理</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/CUC_lib.jpg&quot; alt=&quot;Library of CUC&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/CUC_lib.jpg&quot; alt=&quot;Library of CUC&quot; class=&quot;zoomable&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;收集了一些中国研究的数据库，简介着实比较简单潦草，有一些信息也没有及时更新，如果未来有时间（可能）会慢慢修正并（可能会）添加一些的&lt;/strong&gt;&lt;/p&gt;
 
@@ -631,7 +631,7 @@ i人推荐使用&lt;a href=&quot;https://www.interfolio.com/&quot;&gt;interfolio
    <link href="http://localhost:4000/2023/10/16/chinese-study-databases"/>
    <updated>2023-10-16T00:00:00-04:00</updated>
    <id>http://localhost:4000/2023/10/16/Chinese-study-databases</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/CUC_lib.jpg&quot; alt=&quot;Library of CUC&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/CUC_lib.jpg&quot; alt=&quot;Library of CUC&quot; class=&quot;zoomable&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;I collected some public databases in Chinese research. Please refer to the information below. I’ll (probably) update and modify them in the future.&lt;/strong&gt;&lt;/p&gt;
 

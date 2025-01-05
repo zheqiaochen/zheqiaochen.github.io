@@ -83,7 +83,7 @@ First, you need to figure out the API format. Right-click on the web page, selec
 
 For example, I use [Jekyll Talk](https://talk.jekyllrb.com/). When I click on the link of interest, the Network panel changes.
 
-![Network panel changed](/assets/network_panel.png)
+![Network panel changed](/assets/network_panel.png){:class="zoomable"}
 
 This gives us information about the API request headers and response headers. Therefore, by reconstructing this information ourselves, we can simulate API requests and retrieve responses in JSON format.
 

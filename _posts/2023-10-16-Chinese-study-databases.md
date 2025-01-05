@@ -8,7 +8,7 @@ comments: true
 tags: [data, social science, English]
 ---
 
-![Library of CUC](/assets/CUC_lib.jpg)
+![Library of CUC](/assets/CUC_lib.jpg){:class="zoomable"}
 
 
 **I collected some public databases in Chinese research. Please refer to the information below. I'll (probably) update and modify them in the future.**
