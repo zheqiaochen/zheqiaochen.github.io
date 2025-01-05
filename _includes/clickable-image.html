@@ -1,0 +1,27 @@
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script>
+
+<script>
+window.addEventListener('load', function() {
+    console.log('初始化 medium-zoom');
+    
+    // 初始化所有图片的缩放功能
+    mediumZoom('img:not(.no-zoom)', {
+        margin: 24,
+        background: 'rgba(0, 0, 0, 0.9)',
+        scrollOffset: 0,
+    });
+    
+    console.log('medium-zoom 初始化完成');
+});
+</script>
+
+<style>
+/* 自定义缩放样式 */
+.medium-zoom-overlay {
+    z-index: 9990;
+}
+
+.medium-zoom-image--opened {
+    z-index: 9991;
+}
+</style>

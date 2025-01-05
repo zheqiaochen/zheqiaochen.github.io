@@ -4,13 +4,52 @@
  <title>Zheqiao Chen's Personal Website</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-12-08T04:13:54-05:00</updated>
+ <updated>2025-01-05T01:20:41-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Zheqiao Chen</name>
    <email>chenzheqiao@hotmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Something New: China Social Event Database</title>
+   <link href="http://localhost:4000/2025/01/04/csed"/>
+   <updated>2025-01-04T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2025/01/04/csed</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/csed.png&quot; alt=&quot;csed&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;emphasis-box&quot;&gt;
+
+  &lt;p&gt;&lt;strong&gt;To visit the project website, please go to &lt;a href=&quot;https://csed.zheqiaoc.com&quot;&gt;csed.zheqiaoc.com&lt;/a&gt;. The page is in Chinese&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;For an introduction in Chinese, please visit &lt;a href=&quot;https://csed.zheqiaoc.com/about&quot;&gt;About&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;A core question in my mind is: What do people know about society and the world? Especially in China, after many years of information control, what do 1.4 billion people see every day?&lt;/p&gt;
+
+&lt;p&gt;Previous data and services have several limitations:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;They usually focus on a single event rather than multiple events.&lt;/li&gt;
+  &lt;li&gt;They do not pay much attention to information flow.&lt;/li&gt;
+  &lt;li&gt;Data accessibility is a big problem.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Therefore, I think it would be valuable to have a system that monitors the Chinese internet, keeps track of what’s happening in China, and aggregates this information at the event level. This is what the CSED (China Social Event Database) does. it monitors the &lt;a href=&quot;https://weibo.com/&quot;&gt;Weibo&lt;/a&gt; platform, ktracks a list of key accounts, automatically aggregates information, and presents social media dynamics on a daily basis.&lt;/p&gt;
+
+&lt;p&gt;One more thing: this project is still in its early stages. There are a few things I hope to complete in the near future:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A comprehensive introduction to its methodology.&lt;/li&gt;
+  &lt;li&gt;A user-friendly API for data downloads.&lt;/li&gt;
+  &lt;li&gt;Additional features and algorithm adjustments.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Once again, you can visit the website at &lt;a href=&quot;https://csed.zheqiaoc.com&quot;&gt;csed.zheqiaoc.com&lt;/a&gt;. Have fun :)&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>A Toolkit for OpenAI Batch</title>
@@ -237,7 +276,7 @@ After downloading batch outcomes from the OpenAI server, this feature extracts t
 
 &lt;p&gt;本文中的信息主要来源于我的互联网检索，我并没有和朋友们交流过这些信息，因此可能存在一些主观的甚至错误的判断，本文权当抛砖引玉，希望大家可以批判性阅读，也期待大家的指正!&lt;/p&gt;
 
-&lt;p&gt;我会继续更新这篇文章，最后一次修改的时间为：2024-4-21&lt;/p&gt;
+&lt;p&gt;我会继续更新这篇文章，最后一次修改的时间为：2024-7-1&lt;/p&gt;
 
 &lt;h2 id=&quot;一背景申请项目与录取结果&quot;&gt;一、背景、申请项目与录取结果&lt;/h2&gt;
 
@@ -259,6 +298,7 @@ After downloading batch outcomes from the OpenAI server, this feature extracts t
   &lt;li&gt;UT-Austin, Journalism and Media - MA Research and Theory&lt;/li&gt;
   &lt;li&gt;NYU, MA in Politics&lt;/li&gt;
   &lt;li&gt;UMass at Amherst, MS in Data Analytics and Computational Social Science (DACSS)&lt;/li&gt;
+  &lt;li&gt;Boston University, EMS, 10k scholarship&lt;/li&gt;
   &lt;li&gt;&lt;del&gt;U Wisconsin-Madison, Journalism and Mass Communication&lt;/del&gt;&lt;/li&gt;
   &lt;li&gt;&lt;del&gt;U Minnesota-Twin Cities, Mass Communication&lt;/del&gt;&lt;/li&gt;
   &lt;li&gt;&lt;del&gt;NYU, ASSR&lt;/del&gt;&lt;/li&gt;
@@ -389,8 +429,8 @@ i人推荐使用&lt;a href=&quot;https://www.interfolio.com/&quot;&gt;interfolio
   &lt;li&gt;徐轶青老师的社科申请Q&amp;amp;A：&lt;a href=&quot;http://zjian.org/2017/08/26/&quot;&gt;徐轶青：如何申请北美社科类博士项目？&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;寄托上一位同学写的政治学国际关系申请指南：&lt;a href=&quot;https://bbs.gter.net//forum.php?simpletype=yes&amp;amp;mod=viewthread&amp;amp;tid=2443134&amp;amp;page=&amp;amp;mobile=yes&quot;&gt;政治学与国际关系 MPP/MIA/EAS/IR/PS-Master项目申请“不完全指北”（美英新加）&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Hongtao Hao写的传播学申请心路历以及申请材料：&lt;a href=&quot;https://hongtaoh.com/cn/2021/05/22/my-phd-app/&quot;&gt;我的美国博士申请之路
-&lt;/a&gt;, &lt;a href=&quot;https://hongtaoh.com/cn/2021/10/21/us-phd-app-advice/&quot;&gt;美国博士申请的一些经验和我的申请材料&lt;/a&gt;
-Jing Zhang写的美国传播学系政治传播方向的faculty介绍：&lt;a href=&quot;https://kristenjz.com/cn/2022/05/18/arwu-top50-political-comm-faculty/&quot;&gt;总结：软科专排UStop50含政治传播方向项目与老师总结（part1）&lt;/a&gt;, &lt;a href=&quot;https://kristenjz.com/cn/2023/04/19/arwu-top50-political-comm-faculty/&quot;&gt;总结：软科专排UStop50含政治传播方向项目与老师总结（part2）&lt;/a&gt;&lt;/li&gt;
+&lt;/a&gt;, &lt;a href=&quot;https://hongtaoh.com/cn/2021/10/21/us-phd-app-advice/&quot;&gt;美国博士申请的一些经验和我的申请材料&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Jing Zhang写的美国传播学系政治传播方向的faculty介绍：&lt;a href=&quot;https://kristenjz.com/cn/2022/05/18/arwu-top50-political-comm-faculty/&quot;&gt;总结：软科专排UStop50含政治传播方向项目与老师总结（part1）&lt;/a&gt;, &lt;a href=&quot;https://kristenjz.com/cn/2023/04/19/arwu-top50-political-comm-faculty/&quot;&gt;总结：软科专排UStop50含政治传播方向项目与老师总结（part2）&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;一位台湾同学写的SoP写作超详细教程：&lt;a href=&quot;https://xination.pixnet.net/blog/post/21739595&quot;&gt;留學–SOP解析&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Yuhua Wang老师整理的优秀政治学博士申请文书：&lt;a href=&quot;https://scholar.harvard.edu/files/yuhuawang/files/writing_statement_of_purpose_for_graduate_school_application_2021_yuhua_wang_0.pdf&quot;&gt;For future graduate students in political science&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Lijin Zhang写的PhD申请指南：&lt;a href=&quot;https://github.com/zhanglj37/Tutorial-on-PhD-Application&quot;&gt;Tutorial-on-PhD-Application

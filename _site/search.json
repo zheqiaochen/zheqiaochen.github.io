@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "Something New: China Social Event Database",
+      "description" : "",
+      "url"      : "/2025/01/04/csed",
+      "category" : "",
+      "tags"     : "app, English",
+      "date"     : "2025-01-04 00:00:00 -0500"
+
+    } ,
+  
+    {
+
       "title"    : "A Toolkit for OpenAI Batch",
       "description" : "",
       "url"      : "/2024/11/21/openai-batch-tools",
