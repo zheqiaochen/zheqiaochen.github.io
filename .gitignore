@@ -1,7 +1,41 @@
-tmp
-*.rdb
-.env
-.sass-cache
+# Jekyll 生成的文件
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+
+# Vercel 相关
+.vercel
+.now
+
+# 系统文件
 .DS_Store
-.jekyll-cache
-.git
+Thumbs.db
+
+# 依赖管理
+node_modules/
+.npm
+.yarn
+
+# IDE/编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 临时文件
+tmp/
+temp/
