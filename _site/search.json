@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "中国每天在发生什么：中国社会事件数据库",
+      "description" : "",
+      "url"      : "/2025/01/07/%E4%B8%AD%E6%96%87csed",
+      "category" : "",
+      "tags"     : "app, 中文",
+      "date"     : "2025-01-07 00:00:00 -0500"
+
+    } ,
+  
+    {
+
       "title"    : "Something New: China Social Event Database",
       "description" : "",
       "url"      : "/2025/01/04/csed",
@@ -83,7 +94,7 @@
       "description" : "",
       "url"      : "/2023/10/10/after-application",
       "category" : "",
-      "tags"     : "",
+      "tags"     : "中文",
       "date"     : "2023-10-10 00:00:00 -0400"
 
     } 

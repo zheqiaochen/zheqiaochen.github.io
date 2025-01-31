@@ -1,0 +1,23 @@
+---
+layout: default
+title: 中文
+permalink: /chinese/
+active: chinese
+---
+
+<section class="posts">
+<ul>
+    {% for post in site.posts %}
+    {% if post.tags contains '中文' %}
+<li style="position: relative;">
+    {% if post.highlight %}
+    <span class="red-dot"></span>
+    {% endif %}
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time>
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+  </ul>
+</section> 

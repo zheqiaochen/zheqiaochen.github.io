@@ -3,6 +3,7 @@ layout: post
 include: true
 title: 等申请季结束后写一篇申请指南
 comments: true
+tag: [中文]
 ---
 **等申请季结束后写一篇申请指南**
 

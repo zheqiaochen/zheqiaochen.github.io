@@ -4,13 +4,60 @@
  <title>Zheqiao Chen's Personal Website</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2025-01-05T04:28:17-05:00</updated>
+ <updated>2025-01-31T02:37:48-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Zheqiao Chen</name>
    <email>chenzheqiao@hotmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>中国每天在发生什么：中国社会事件数据库</title>
+   <link href="http://localhost:4000/2025/01/07/%E4%B8%AD%E6%96%87csed"/>
+   <updated>2025-01-07T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2025/01/07/中文csed</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/csed.png&quot; alt=&quot;csed&quot; class=&quot;zoomable&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;emphasis-box&quot;&gt;
+
+  &lt;p&gt;&lt;strong&gt;项目网站为：&lt;a href=&quot;https://csed.zheqiaoc.com&quot;&gt;csed.zheqiaoc.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;项目介绍在：&lt;a href=&quot;https://csed.zheqiaoc.com/about&quot;&gt;这里&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;2025-01-31: 在Github开源，并做了很多优化&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;repo-card&quot; data-repo=&quot;zheqiaochen/China-Social-Event-Database-CSED&quot;&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;中国社会事件数据库的开发源于我的两个问题：中国每天在发生什么？民众每天在互联网上关注和接收哪些信息？&lt;/p&gt;
+
+&lt;p&gt;多数的传播学或政治学研究似乎更多关注特定事件的报道，而非整体的信息分布。因此，我希望可以通过这个项目，从事件的层次汇总数据，并进行分析。&lt;/p&gt;
+
+&lt;p&gt;这一项目有以下特点：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;每日自动汇总信息，以时间线的形式进行展示。&lt;/li&gt;
+  &lt;li&gt;政府回应检测，有小黄星的条目包含了政府的回应。&lt;/li&gt;
+  &lt;li&gt;点击帖子标题可以跳转微博原帖。&lt;/li&gt;
+  &lt;li&gt;对移动端和桌面端都有较好的支持。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;未来希望可以完成的事情：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;提供数据下载的页面或者API接口。&lt;/li&gt;
+  &lt;li&gt;增加更多的功能，如事件分类，事件地图等。&lt;/li&gt;
+  &lt;li&gt;增加更多的数据源，如公众号，抖音等。&lt;/li&gt;
+  &lt;li&gt;开源（抱歉代码写得太差，没仔细检查之前不好意思开源）&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;我目前正在上学，知识了解十分有限，并且没有充足的时间进行后续开发维护，因此最终效果或许不尽如人意。如果你对这一项目有兴趣和想法，欢迎通过邮件联系我，可以在&lt;a href=&quot;https://www.zheqiaoc.com/about&quot;&gt;About&lt;/a&gt;页面找到我的邮箱。&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Something New: China Social Event Database</title>
@@ -21,11 +68,20 @@
 
 &lt;div class=&quot;emphasis-box&quot;&gt;
 
-  &lt;p&gt;&lt;strong&gt;To visit the project website, please go to &lt;a href=&quot;https://csed.zheqiaoc.com&quot;&gt;csed.zheqiaoc.com&lt;/a&gt;. The page is in Chinese&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;To visit the project website, please go to &lt;a href=&quot;https://csed.zheqiaoc.com&quot;&gt;csed.zheqiaoc.com&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;strong&gt;For an introduction in Chinese, please visit &lt;a href=&quot;https://csed.zheqiaoc.com/about&quot;&gt;About&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;An up-to-date introduction is available &lt;a href=&quot;https://github.com/zheqiaochen/China-Social-Event-Database-CSED/blob/main/README_en.md&quot;&gt;here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;2025-01-31: The project is open-sourced at Github, many improvements have been made.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;repo-card&quot; data-repo=&quot;zheqiaochen/China-Social-Event-Database-CSED&quot;&gt;&lt;/div&gt;
+
+&lt;!-- NEW: for dark theme just set data-theme attribute --&gt;
+&lt;!-- &lt;div class=&quot;repo-card&quot; data-repo=&quot;zheqiaochen/China-Social-Event-Database-CSED&quot; data-theme=&quot;dark-theme&quot;&gt;&lt;/div&gt; --&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;A core question in my mind is: What do people know about society and the world? Especially in China, after many years of information control, what do 1.4 billion people see every day?&lt;/p&gt;
 
@@ -37,9 +93,9 @@
   &lt;li&gt;Data accessibility is a big problem.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Therefore, I think it would be valuable to have a system that monitors the Chinese internet, keeps track of what’s happening in China, and aggregates this information at the event level. This is what the CSED (China Social Event Database) does. it monitors the &lt;a href=&quot;https://weibo.com/&quot;&gt;Weibo&lt;/a&gt; platform, ktracks a list of key accounts, automatically aggregates information, and presents social media dynamics on a daily basis.&lt;/p&gt;
+&lt;p&gt;Therefore, I think it would be valuable to have a system that monitors the Chinese internet, keeps track of what’s happening in China, and aggregates this information at the event level. This is what the CSED (China Social Event Database) does. it monitors the &lt;a href=&quot;https://weibo.com/&quot;&gt;Weibo&lt;/a&gt; platform, tracks a list of key accounts, automatically aggregates information, and presents social media dynamics on a daily basis.&lt;/p&gt;
 
-&lt;p&gt;One more thing: this project is still in its early stages. There are a few things I hope to complete in the near future:&lt;/p&gt;
+&lt;p&gt;This project is still in its early stages, and here are a few things I hope to complete in the near future:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;A comprehensive introduction to its methodology.&lt;/li&gt;

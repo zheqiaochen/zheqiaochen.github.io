@@ -60,7 +60,7 @@ body {
     color: var(--primary-text);
     background-color: var(--bg-color);
     max-width: 100ch;
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
 }
 
 nav ul {
@@ -169,6 +169,10 @@ header a.active {
     font-weight: bold;
 }
 
+header a[href="/chinese"].active {
+    font-weight: bold;
+}
+
 // 引用块使用楷体
 blockquote {
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, 'Kai SC', serif;
@@ -248,9 +252,9 @@ main {
     display: flex;
     flex-wrap: wrap;
     max-width: 60rem;
-    margin: 2rem auto 0rem auto;
+    margin: 1.5rem auto 0rem auto;
     padding: 1rem;
-    padding-left: 1.2rem;
+    padding-left: 1rem;
 }
 
 @media screen and (max-width: 45rem) {
@@ -474,7 +478,7 @@ em {
 }
 
 .emphasis-box {
-    margin: 2rem 0;
+    margin: 1.5rem 0;
     padding: 1.5rem;
     border-left: 3px solid #2d2c2c;
     background-color: var(--code-bg);
@@ -539,4 +543,11 @@ em {
     background-color: red; /* 红色背景 */
     border-radius: 50%; /* 圆形 */
   }
-  
+
+hr, hr {
+    height: 1px;
+    color: #5e5e5e;
+    background: #5e5e5e;
+    opacity: 0.5;
+    margin: 1rem 0rem 1rem 0rem;
+}
