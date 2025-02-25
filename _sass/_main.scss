@@ -551,3 +551,9 @@ hr, hr {
     opacity: 0.5;
     margin: 1rem 0rem 1rem 0rem;
 }
+
+.task-list-item input[type="checkbox"] {
+    margin-right: 1em;
+    margin-top: 0.5em;
+    vertical-align: -0.11em;
+  }
