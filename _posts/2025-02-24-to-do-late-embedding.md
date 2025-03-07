@@ -10,7 +10,7 @@ tags: [todo, English]
 ---
 <div class="emphasis-box" markdown="1">
 
-I decided not to do this project, since there's a better way to do chunking as specified in my new post: [Why we should not do overlap in chunking](https://zheqiaoc.com/2025/03/07/why-not-overlap/).
+I decided not to do this project, since there's a better way to do chunking as specified in this article: [Why We Should Not Do Overlap in Chunking (and What to Do Instead)](https://www.zheqiaoc.com/2025/03/07/why-not-overlap).
 
 </div>
 This article is a little reminder to myself.
