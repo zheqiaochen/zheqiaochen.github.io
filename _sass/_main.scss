@@ -18,6 +18,7 @@
     --hover-color: #333333;       // 悬停颜色，中深色
     --code-bg: #fafafa;           // 代码背景色，极浅灰
     --blockquote-bg: #fafafa;     // 引用背景色，极浅灰
+    --text-color: #1a1a1a;        // 添加这个变量
 }
 
 // 字体声明
@@ -60,7 +61,7 @@ body {
     color: var(--primary-text);
     background-color: var(--bg-color);
     max-width: 100ch;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 0 22%;  // 桌面端默认左侧边距为22%
 }
 
 nav ul {
@@ -115,7 +116,13 @@ pre {
     margin-bottom: 4rem;
 }
 
-.post p,
+.post p {
+    margin-top: 1rem;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+    margin-left: 0;
+}
+
 .post h1,
 .post h2,
 .post h3,
@@ -123,6 +130,7 @@ pre {
 .meta,
 li {
     margin: 1rem 0;
+    // margin-bottom: 0.5rem;
 }
 
 .post h1,
@@ -188,7 +196,8 @@ blockquote {
 strong,
 b {
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 1.05em;
+    margin-right: 0.2rem;
 }
 
 .photos ul,
@@ -220,12 +229,41 @@ header ul {
     font-variant-numeric: tabular-nums;
 }
 
-.post ul,
-.project ul,
 .post ol {
-    list-style-position: inside;
+    list-style-type: decimal;
     margin-left: 1rem;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
+    ul {
+        list-style-position: inside;
+        margin-left: 0rem;
+        padding-left: 0rem;
+    }
+    li {
+        // padding-left: 0.5rem;
+        margin-bottom: 0rem;
+        
+        // 确保列表项中的加粗文本正确显示
+        strong {
+            display: inline-block;
+        }
+    }
+    p {
+        margin-bottom: 0rem;
+    }
+}
+
+// // 确保列表项中的段落正确显示
+// .post li p {
+//     display: inline-block;
+//     margin-top: 0.3rem;
+//     margin-bottom: 0.3rem;
+// }
+
+.post ul,
+.project ul {
+    list-style-position: inside;
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;
 }
 
 img {
@@ -254,10 +292,15 @@ main {
     max-width: 60rem;
     margin: 1.5rem auto 0rem auto;
     padding: 1rem;
-    padding-left: 1rem;
+    // padding-left: 0rem;
+    // padding-right: 1.5rem;
 }
 
-@media screen and (max-width: 45rem) {
+@media screen and (max-width: 64rem) {  // 约等于1024px，覆盖iPad和移动设备
+    body {
+        margin: 0 auto;  // iPad和移动端时左右边距都为auto
+    }
+
     header li {
         display: inline;
         margin-right: 1rem;
@@ -304,6 +347,7 @@ figcaption {
 
 li {
     margin: 4px 0;
+    // margin-left: 0.2rem;
     font-size: 0.95rem;
 }
 
@@ -344,7 +388,7 @@ li {
     padding: 0.4rem 0.8rem;
     font-size: 0.85rem;
     font-weight: 500;
-    color: var(--text-color);
+    color: var(--primary-text);
     background-color: var(--bg-color);
     border: 1px solid var(--border-color);
     border-radius: 6px;
@@ -448,7 +492,10 @@ li {
     color: var(--primary-text);
 }
 
-.post h3, h3 { font-size: 1.3rem; }
+.post h3, h3 { 
+    font-size: 1.3rem; 
+    margin-bottom: 0.2rem;
+}
 .post h4, h4 { font-size: 1.15rem; }
 h5 { font-size: 1rem; }
 
@@ -465,7 +512,6 @@ h5 { font-size: 1rem; }
     text-decoration: underline;
     text-underline-offset: 2px;
     text-decoration-thickness: 1px;
-    
     &:hover {
         color: var(--hover-color);
     }
@@ -490,6 +536,8 @@ em {
     // 确保内部元素样式正常
     p, ul, ol {
         margin: 1rem 0;
+        line-height: 1.6;  // 增加行高
+        font-size: 0.95em;
         &:first-child { margin-top: 0; }
         &:last-child { margin-bottom: 0; }
     }
@@ -526,6 +574,7 @@ em {
     // 保持强调样式
     strong {
         font-weight: bold;
+        font-size: 0.9em;
     }
 
     em {
@@ -544,7 +593,7 @@ em {
     border-radius: 50%; /* 圆形 */
   }
 
-hr, hr {
+hr {
     height: 1px;
     color: #5e5e5e;
     background: #5e5e5e;
