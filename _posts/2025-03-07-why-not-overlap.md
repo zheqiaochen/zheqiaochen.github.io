@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why we should not do overlap in chunking (and what to do instead)"
+title: "Why We Should Not Do Overlap in Chunking (and What to Do Instead)"
 include: true
 comments: true
 toc: false
