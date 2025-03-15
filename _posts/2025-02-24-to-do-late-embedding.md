@@ -8,9 +8,16 @@ usemathjax: false
 highlight: false
 tags: [todo, English]
 ---
+
 <div class="emphasis-box" markdown="1">
 
-I decided not to do this project, since there's a better way to do chunking as specified in this article: [Why We Should Not Do Overlap in Chunking (and What to Do Instead)](https://www.zheqiaoc.com/2025/03/07/why-not-overlap).
+3/15/2025: Anyway, an update can be found here: [zh-late-chunking: Late Chunking for Chinese](http://127.0.0.1:4000/2025/03/15/zh-late-chunking)
+
+</div>
+
+<div class="emphasis-box" markdown="1">
+
+3/10/2025: I decided not to do this project, since there's a better way to do chunking as specified in this article: [Why We Should Not Do Overlap in Chunking (and What to Do Instead)](https://www.zheqiaoc.com/2025/03/07/why-not-overlap).
 
 </div>
 This article is a little reminder to myself.
