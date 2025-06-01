@@ -8,6 +8,7 @@
     padding: 0;
 }
 
+
 // 定义配色变量
 :root {
     --primary-text: #1a1a1a;      // 主要文字颜色，接近黑色
@@ -19,6 +20,16 @@
     --code-bg: #fafafa;           // 代码背景色，极浅灰
     --blockquote-bg: #fafafa;     // 引用背景色，极浅灰
     --text-color: #1a1a1a;        // 添加这个变量
+}
+
+::selection {
+    background-color: #dadada;
+    color: #000000;
+}
+
+::-moz-selection {
+    background-color: #dadada;
+    color: #000000;
 }
 
 // 字体声明
