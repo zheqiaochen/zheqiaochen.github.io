@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Commontale, an AI solutions for Chinese politics and history"
+title: "Commontale, an AI solution for Chinese politics and history"
 include: true
 comments: true
 toc: false
